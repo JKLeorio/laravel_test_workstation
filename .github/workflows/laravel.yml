@@ -18,7 +18,7 @@ jobs:
     #   with:
     #     php-version: '8.2'
     - name: install composer
-      run: apt install composer -y
+      run: apt-get install composer -y
 
     - uses: actions/checkout@v4
     - name: Copy .env
